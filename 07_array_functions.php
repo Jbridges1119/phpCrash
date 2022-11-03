@@ -22,8 +22,9 @@ array_unshift($fruits, 'mango');
 
 //REMOVE FROM ARRAY END
 array_pop($fruits);
+echo '<pre>';
 print_r($fruits);
-
+echo '</pre>';
 //REMOVE FROM ARRAY BEGINNING
 array_shift($fruits);
 
